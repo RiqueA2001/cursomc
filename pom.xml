@@ -64,9 +64,11 @@
 		
 		<dependency>
 
-			<groupId>mysql</groupId>
+			<groupId>org.postgresql</groupId>
 
-			<artifactId>mysql-connector-java</artifactId>
+			<artifactId>postgresql</artifactId>
+			
+			<scope>runtime</scope>
 
 		</dependency>
 		
